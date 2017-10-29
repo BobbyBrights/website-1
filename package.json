@@ -45,5 +45,5 @@
     "webpack-hot-middleware": "^2.20.0",
     "webpack-stats-plugin": "^0.1.5"
   },
-  "private": trues
+  "private": true
 }
