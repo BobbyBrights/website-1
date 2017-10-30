@@ -2,6 +2,7 @@ import React from 'react'
 import MainToolbar from './MainToolbar'
 import preload from './data.json'
 import {Link} from 'react-router-dom'
+import {withRouter} from 'react-router'
 
 class Home extends React.Component {
     componentDidMount() {
@@ -31,4 +32,4 @@ class Home extends React.Component {
     }
 }
 
-export default Home
+export default withRouter(Home)

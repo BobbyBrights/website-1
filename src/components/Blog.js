@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import MainToolbar from './MainToolbar'
+import {withRouter} from 'react-router'
 
 class Blog extends Component {
     componentDidMount() {
@@ -33,4 +34,4 @@ class Blog extends Component {
   }
 }
 
-export default Blog
+export default withRouter(Blog)
