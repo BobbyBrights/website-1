@@ -1,4 +1,7 @@
 import serialize from 'serialize-javascript'
+import { SheetsRegistry } from 'react-jss/lib/jss'
+const sheetsRegistry = new SheetsRegistry()
+const css = sheetsRegistry.toString()
 
 export default ({ styles, state, html, main }) => `<!doctype html>
 <html lang="en">
@@ -30,6 +33,7 @@ export default ({ styles, state, html, main }) => `<!doctype html>
   </head>
   <body>
     <div id="root">${html}</div>
+     <style id="jss-server-side">${css}</style>
     <script src="/dist/${main}"></script>
   </body>
 </html>`

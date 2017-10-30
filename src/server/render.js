@@ -2,6 +2,14 @@ import { renderToString } from 'react-dom/server'
 import { ServerStyleSheet } from 'styled-components'
 import { StaticRouter } from 'react-router'
 import { matchPath } from 'react-router-dom'
+import { SheetsRegistry } from 'react-jss/lib/jss'
+import JssProvider from 'react-jss/lib/JssProvider'
+import { create } from 'jss'
+import preset from 'jss-preset-default'
+// import rtl from 'jss-rtl'; // in-case you're supporting rtl
+import { MuiThemeProvider, createMuiTheme } from 'material-ui/styles'
+import createGenerateClassName from 'material-ui/styles/createGenerateClassName'
+import { green, red } from 'material-ui/colors'
 
 import routes from 'routes'
 import createStore from 'store'
@@ -26,8 +34,30 @@ export default stats => async (req, res) => {
     })
 
     await Promise.all(promises)
+    const sheetsRegistry = new SheetsRegistry()
+    const theme = createMuiTheme({
+      palette: {
+        primary: green,
+        accent: red,
+        type: 'light',
+      },
+    })
 
-    const root = App(store, StaticRouter, { location: req.url, context })
+    const jss = create(preset())
+    jss.options.createGenerateClassName = createGenerateClassName
+
+    const root = App(
+      store,
+      StaticRouter,
+      { location: req.url, context },
+        JssProvider,
+        { registry: sheetsRegistry },
+        MuiThemeProvider,
+        {
+            theme,
+            jss,
+        },
+    )
     const html = __DEV__ ? '' : renderToString(sheet.collectStyles(root))
     const styles = __DEV__ ? '' : sheet.getStyleTags()
 

@@ -1,17 +1,36 @@
 import React, { Component } from 'react'
-import styled from 'styled-components'
-
-const Container = styled.div`
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`
+import MainToolbar from './MainToolbar'
 
 class Blog extends Component {
-    render() {
-        return <Container><h1>{this.props.match.params.id}</h1></Container>
+    componentDidMount() {
+        const jssStyles = document.getElementById('jss-server-side');
+        if (jssStyles && jssStyles.parentNode) {
+            jssStyles.parentNode.removeChild(jssStyles);
+        }
     }
+  render() {
+    const {
+      hotelname,
+      picture,
+      cancellation,
+      general_info,
+      category,
+      pictures,
+      rooms,
+      services,
+      important_info,
+      features,
+    } = this.props.hotel
+
+    return (
+      <div>
+        <MainToolbar />
+        <h1>{hotelname}</h1>
+        <img src={picture} />
+        <h2>{category}</h2>
+      </div>
+    )
+  }
 }
 
 export default Blog

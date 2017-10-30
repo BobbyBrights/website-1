@@ -1,0 +1,459 @@
+@media only screen and (max-width:360px) {
+  .responsiveSlide {
+    display: block;
+  }
+
+  .nonResponsiveSlide {
+    display: none;
+  }
+  .sliderContainer {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+
+  }
+
+  .hotelCard {
+    height: 320px !important;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .swiper-slide {
+    width: 220px !important;
+
+    left:16px;
+    /* Center slide text vertically */
+
+  }/* CSS rules here */
+  .swipeBackground {
+    height: 147px !important;
+    width:100%;
+    background-size:cover;
+    background-position:50% 50%;
+  }/* CSS rules here */
+  h1 {
+    font-size: 25px !important;
+    line-height: 30px !important;
+    letter-spacing: -0.5px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    color: #484848 !important;
+    font-weight: 300 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+  }
+
+}
+@media only screen and (max-width:744px) and (min-width:360px) {
+  .mainslide {
+    width: 220px !important;
+
+    left:16px;
+    /* Center slide text vertically */
+
+  }/* C
+  SS rules here */
+  .hotelCard {
+    height: 320px !important;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .swipeBackground {
+    height: 147px !important;
+    width:100%;
+    background-size:cover;
+    background-position:50% 50%;
+  }/* CSS rules here */
+  .responsiveSlide {
+    display: block;
+  }
+
+  .nonResponsiveSlide {
+    display: none;
+  }
+
+  h1 {
+    font-size: 25px !important;
+    line-height: 30px !important;
+    letter-spacing: -0.5px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    color: #484848 !important;
+    font-weight: 300 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+  }
+  .sliderContainer {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+
+  }
+
+}
+@media only screen and (max-width:1024px) and (min-width:744px) {
+  .mainSlide {
+    width: 50% !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+
+    /* Center slide text vertically */
+
+  }
+
+  .swipeBackground {
+    height: 338px !important;
+    width:100%;
+    background-size:cover;
+    background-position:50% 50%;
+  }/* CSS rules here */
+  .responsiveSlide {
+    display: none;
+  }
+
+  .nonResponsiveSlide {
+    display: block;
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+  .MainToolbar-menuButton-7 {
+    display: none !important;
+  }
+  h1{
+
+    font-size: 40px !important;
+    line-height: 56px !important;
+    letter-spacing: -0.5px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    color: #757575 !important;
+    font-weight: 300 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    text-shadow: 0px 0px #949494;
+  }
+  .sliderContainer {
+    height: 470px;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+
+  }
+
+}
+@media only screen and (max-width:1128px) and (min-width:1024px) {
+  .mainSlide {
+    width: 33.333333333333336% !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+
+    /* Center slide text vertically */
+
+  }
+  .container{
+    max-width: 940px !important;
+  }
+  .swipeBackground {
+    height: 197px !important;
+    width:100%;
+    background-size:cover;
+    background-position:50% 50%;
+  }/* CSS rules here */
+  .responsiveSlide {
+    display: none ;
+  }
+
+  .nonResponsiveSlide {
+    display: block;
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+  .MainToolbar-menuButton-7 {
+    display: none !important;
+  }
+  h1{
+
+    font-size: 40px !important;
+    line-height: 56px !important;
+    letter-spacing: -0.5px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    color: #757575 !important;
+    font-weight: 300 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    text-shadow: 0px 0px #949494;
+  }
+  .sliderContainer {
+    height: 470px;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+
+  }
+}
+@media only screen and (min-width:1128px) {
+  .mainSlide {
+    width: 33.333333333333336% !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+
+    /* Center slide text vertically */
+
+  }
+  .container{
+    max-width: 940px !important;
+  }
+  .swipeBackground {
+    height: 197.31px !important;
+    width:100%;
+    background-size:cover;
+    background-position:50% 50%;
+  }/* CSS rules here */
+  .responsiveSlide {
+    display: none;
+  }
+
+  .nonResponsiveSlide {
+    display: block;
+    margin-top: 48px;
+    margin-bottom: 48px;
+  }
+  .MainToolbar-menuButton-7 {
+    display: none !important;
+  }
+  h1{
+
+    font-size: 40px !important;
+    line-height: 56px !important;
+    letter-spacing: -0.5px !important;
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+    color: #757575 !important;
+    font-weight: 300 !important;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    text-shadow: 0px 0px #949494;
+  }
+
+
+  .sliderContainer {
+    height: 470px;
+    width: 100%;
+    background-size: cover;
+    background-position: 50% 50%;
+
+  }
+  .searchWrapper{
+    font-size: 19px !important;
+    line-height: 24px !important;
+    letter-spacing: undefined !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    color: #484848 !important;
+    border-radius: 4px !important;
+    border: 1px solid #DBDBDB !important;
+    box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.08) !important;
+    padding: 0px !important;
+    display: table !important;
+    table-layout: fixed !important;
+    height: 42px !important;
+    width: 100% !important;
+    position: relative !important;
+    background: white;
+  }
+  .whenInput {
+    width:33%;
+    display: table-cell !important;
+    vertical-align: middle !important;
+    position: relative !important;
+    -webkit-transition: width 0.3s !important;
+    -moz-transition: width 0.3s !important;
+    transition: width 0.3s !important;
+
+    border-left: 1px solid #e4e4e4 !important;
+    border-right: 1px solid #e4e4e4 !important;
+  }
+  .searchLabel {
+    font-size: 15px !important;
+    line-height: 18px !important;
+    letter-spacing: 0.2px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    color: #484848 !important;
+    display: block !important;
+    margin-left: 16px !important;
+    margin-top: 16px !important;
+  }
+
+  .bottomInput{
+    font-size: 19px !important;
+    line-height: 24px !important;
+    letter-spacing: undefined !important;
+   padding: 0px !important;
+    color: #484848 !important;
+    font-weight: normal !important;
+    background-color: transparent !important;
+    border: 0px !important;
+    padding: 0px !important;
+    width: 100% !important;
+    text-overflow: ellipsis !important;
+  }
+  .searchButton {
+    font-size: 19px !important;
+    line-height: 15px !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    color: #ffffff !important;
+    padding-left: 18px !important;
+    padding-right: 18px !important;
+    border-radius: 4px !important;
+    border: 0px !important;
+    background: #0088ee !important;
+    margin: 12px !important;
+    margin-left: 16px !important;
+    height: 48px !important;
+    text-align: center !important;
+    display: inline-block !important;
+    float: right !important;
+    white-space: nowrap !important;
+    position: absolute !important;
+    right: 0px !important;
+    top: 10% !important;
+    text-transform: capitalize !important;
+    font-weight: 300 !important;
+    font-family: 'Sailec',sans-serif !important;
+
+  }
+  .whenInputSearch{
+    width: 0%;
+    z-index: 2;
+  }
+}
+.sk-three-bounce {
+  height: 18px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+.switch-wrapper {
+  position: relative;
+}
+
+.switch-wrapper > div {
+  position: absolute;
+  width: 100%;
+}
+
+.mainHeading {
+  color: #ffffff !important;
+}
+
+.logo_part_one {
+  color:#ffffff !important;
+  float:left;
+  font-weight:500;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.logo_part_two {
+  color:#afd1ff !important;
+  float:left;
+  font-weight:300;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.toolbarMain {
+  padding: 0px !important;
+}
+
+.hotelCard {
+  height: 230px;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.caption {
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(-450deg, transparent, rgba(0,0,0,1.8));
+  background-image: -webkit-linear-gradient(top, transparent, rgba(0,0,0,1.8));
+  background-image: linear-gradient(180deg, transparent, rgba(0,0,0,1.8));
+  content: '';
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 90px;
+}
+
+.captionContainer {
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.hotelTitle {
+  font-size: 22px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  color: #ffffff;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+.sectionTitle {
+  font-size: 32px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 500;
+  color: #333333;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-font-smoothing: antialiased;
+  padding-top:20px;
+  padding-bottom:10px;
+  letter-spacing: -2px !important;
+
+}
+
+.captionBottom {
+  width: 100%;
+  float: left;
+
+}
+.captionTop {
+}
+.place {
+  float: left;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 14px;
+}
+.place svg {
+  width: 18px;
+  height: 18px;
+  color: #fbaf2e;
+}
+
+.row {
+  margin-left:0px !important;
+  margin-right: 0px !important;
+}
+.col-12 {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
